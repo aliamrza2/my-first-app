@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "my-first-app",
+    "slug": "my-first-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTabletOnly": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.example.myfirstapp"
+    },
+    "plugins": [
+      ["expo-build-properties", {
+        "android": {
+          "compileSdkVersion": 34
+        }
+      }]
+    ]
+  }
+}
